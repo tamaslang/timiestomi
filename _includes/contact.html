@@ -1,0 +1,50 @@
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading background">Visszajelzés</h2>
+                <h3 id="deadline" class="section-subheading text-muted">A visszajelzéseket július 15-ig várjuk szeretettel!</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="contactFormContainer">
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="control-group form-group">
+                                <input type="text" class="form-control" placeholder="Neved *" id="name"
+                                       disabled value="<?php echo $GYEREEL; ?>"
+                                       required data-validation-required-message="Kerlek add meg a neved!">
+                                <p class="help-block text-danger"></p>
+                                <input type="hidden" class="form-control" id="attendee" value="<?php echo $ID; ?>"/>
+
+                            </div>
+                            <div class="control-group form-group">
+                                <input type="email" class="form-control" placeholder="Email cím: *" id="email" required data-validation-required-message="Kérlek add meg az email címed!">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group form-group">
+                                <input type="text" class="form-control" placeholder="Tudsz-e jönni? *" id="joinus" required data-validation-required-message="Kérlek add meg tudsz-e jönni!">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="control-group form-group">
+                                <textarea class="form-control" placeholder="Kérsz-e szállást? Ha igen, hány főre? *" id="message" required data-validation-required-message="Kérlek add meg kérsz-e szállást és, ha igen, hány főre!"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <button type="submit" class="btn btn-xl">Küldés</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="row">
+            <div id="success" class="text-center"></div>
+        </div>
+    </div>
+</section>

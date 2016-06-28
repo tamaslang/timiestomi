@@ -1,0 +1,53 @@
+url: http://timiestomi.hu/
+baseurl: 
+
+# Site settings
+title: Timi &amp; Tomi
+email: lagzi@timiestomi.hu
+description: "Lakodalmas meghívó"
+
+
+# Img titles and names
+people:
+- name: Egy lány
+  pic: lany
+
+- name: Egy fiú
+  pic: fiu
+
+- name: Egy sima
+  pic: komoly_par
+
+- name: Egy bújós
+  pic: vicces_par
+
+# Img names for posts
+img:
+- pic: 1
+- pic: 2
+- pic: 3
+- pic: 4
+- pic: 5
+- pic: 6
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line:
+  - line:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
